@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WsRTC"
-  s.version      = "2.0.5"
+  s.version      = "2.0.6"
   s.summary      = "A short description of WsRTC."
 
   s.homepage     = "https://github.com/wangsrtc/WSRTC-IOS-SDK.git"
