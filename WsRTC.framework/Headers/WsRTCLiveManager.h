@@ -34,6 +34,15 @@ typedef NS_ENUM(NSInteger, WsRTCLiveVideoRenderMode) {
     WsRTCVideoRenderMode_ScaleAspect_FIT
 };
 
+typedef NS_ENUM(NSInteger, WsRTCLiveError) {
+    WsErrorUnknown = -2001,
+    WsErrorCreateSDP = -2002,
+    WsErrorSetSDP = -2003,
+    WsErrorGetSignal = -2004,
+    WsErrorPeerDisConn = -2005,
+    WsErrorPeerConnFailed = -2006
+};
+
 typedef enum {
     WsRTCLiveLogLevelDebug,
     WsRTCLiveLogLevelInfo,

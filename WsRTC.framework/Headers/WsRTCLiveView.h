@@ -76,8 +76,7 @@ typedef NS_ENUM(NSInteger, WsRTCVideoRenderMode) {
 
 - (void)notifyCaton:(WsRTCLiveView *)videoView status:(int)status;
 
-/*统计接口*/
-//- (void)showStats:(WsRTCLiveView *)videoView statReport:(WsRTCStatReport*)statReport;
+- (void)onConnected:(WsRTCLiveView*)videoView;
 
 - (void)showStats:(WsRTCLiveView *)videoView strStat:(NSString*)strStat;
 
